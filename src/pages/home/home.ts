@@ -15,8 +15,9 @@ export class HomePage {
     {
      
       title: "Crews",
-      description: "<p> A dedicated plateform for organizing your parties and events between friends. <p >Offer, vote and find what events best fit your crew.</p></p>",
-      image: "assets/imgs/image (12).png",
+      description: "<p> A dedicated plateform for organizing your parties and events between friends.</p> <p>Offer, vote and find what events best fit your crew.</p>",
+      image: "assets/imgs/slide1.png",
+
     },
     {
      
