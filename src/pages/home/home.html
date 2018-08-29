@@ -1,0 +1,33 @@
+<ion-header>
+
+    <ion-icon class="header-logo" ios="ios-analytics" md="md-analytics">
+    </ion-icon>
+    <div class="header-right">
+        <div class="header-right-infos">
+
+            <span class="header-right-skip">skip</span>
+            <ion-icon ios="ios-play" md="md-play"></ion-icon>
+            <ion-icon ios="ios-play" md="md-play"></ion-icon>
+        </div>
+    </div>
+
+</ion-header>
+
+<ion-content padding>
+    <ion-slides pager>
+        <ion-slide *ngFor="let slide of slides">
+            <img [src]="slide.image" class="slide-image" />
+            <h2 class="slide-title" [innerHTML]="slide.title"></h2>
+            <p [innerHTML]="slide.description"></p>
+        </ion-slide>
+        <ion-slide>
+            <img src="assets/imgs/slide5.png" class="slide-image" />
+            <h2 class="slide-title">Profile</h2>
+            <p> A personalized Travel Diary.</p>
+            <p> Store all your paths, deals and activities.</p>
+            <button ion-button large clear icon-end color="primary">
+            SIGN IN
+          </button>
+        </ion-slide>
+    </ion-slides>
+</ion-content>
